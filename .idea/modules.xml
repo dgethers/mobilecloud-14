@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/examples/1-SimpleServlet/1-SimpleServlet.iml" filepath="$PROJECT_DIR$/examples/1-SimpleServlet/1-SimpleServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/2-VideoServlet/2-VideoServlet.iml" filepath="$PROJECT_DIR$/examples/2-VideoServlet/2-VideoServlet.iml" />
+    </modules>
+  </component>
+</project>
+

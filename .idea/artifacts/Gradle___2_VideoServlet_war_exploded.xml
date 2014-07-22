@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : 2-VideoServlet.war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/2-VideoServlet</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="2-VideoServlet/web/Web Gradle : 2-VideoServlet.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="2-VideoServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: httpclient-4.3.4" />
+          <element id="library" level="project" name="Gradle: commons-io-1.3.2" />
+          <element id="library" level="project" name="Gradle: httpcore-4.3.2" />
+          <element id="library" level="project" name="Gradle: commons-logging-1.1.3" />
+          <element id="library" level="project" name="Gradle: commons-codec-1.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
