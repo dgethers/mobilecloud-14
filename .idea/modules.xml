@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/examples/1-SimpleServlet/1-SimpleServlet.iml" filepath="$PROJECT_DIR$/examples/1-SimpleServlet/1-SimpleServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/examples/2-VideoServlet/2-VideoServlet.iml" filepath="$PROJECT_DIR$/examples/2-VideoServlet/2-VideoServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/3-VideoControllerAndRetrofit/3-VideoControllerAndRetrofit.iml" filepath="$PROJECT_DIR$/examples/3-VideoControllerAndRetrofit/3-VideoControllerAndRetrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/4-VideoControllerWithDependencyInjection/4-VideoControllerWithDependencyInjection.iml" filepath="$PROJECT_DIR$/examples/4-VideoControllerWithDependencyInjection/4-VideoControllerWithDependencyInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/5-VideoControllerWithJpa/5-VideoControllerWithJpa.iml" filepath="$PROJECT_DIR$/examples/5-VideoControllerWithJpa/5-VideoControllerWithJpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignments/Asgn1-VideoUp/Asgn1-VideoUp.iml" filepath="$PROJECT_DIR$/assignments/Asgn1-VideoUp/Asgn1-VideoUp.iml" />
     </modules>
   </component>
 </project>

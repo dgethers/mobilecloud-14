@@ -4,8 +4,12 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/assignments/Asgn1-VideoUp" />
     <file type="web" url="file://$PROJECT_DIR$/examples/1-SimpleServlet" />
     <file type="web" url="file://$PROJECT_DIR$/examples/2-VideoServlet" />
+    <file type="web" url="file://$PROJECT_DIR$/examples/3-VideoControllerAndRetrofit" />
+    <file type="web" url="file://$PROJECT_DIR$/examples/4-VideoControllerWithDependencyInjection" />
+    <file type="web" url="file://$PROJECT_DIR$/examples/5-VideoControllerWithJpa" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
