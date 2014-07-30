@@ -4,6 +4,16 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/assignments/Asgn1-VideoUp" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-2.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/assignments/Asgn1-VideoUp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/examples/1-SimpleServlet" />
         <option name="gradleHome" value="$USER_HOME$/gradle-2.0" />
         <option name="modules">
@@ -19,6 +29,36 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/examples/2-VideoServlet" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/examples/3-VideoControllerAndRetrofit" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-2.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/examples/3-VideoControllerAndRetrofit" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/examples/4-VideoControllerWithDependencyInjection" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-2.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/examples/4-VideoControllerWithDependencyInjection" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/examples/5-VideoControllerWithJpa" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-2.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/examples/5-VideoControllerWithJpa" />
           </set>
         </option>
       </GradleProjectSettings>
