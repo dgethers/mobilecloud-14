@@ -2,6 +2,11 @@ package org.magnum.mobilecloud.video.repository;
 
 import com.google.common.base.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  * A simple object to represent a video and its URL for viewing.
  * 
@@ -16,9 +21,11 @@ import com.google.common.base.Objects;
  * 
  * @author mitchell
  */
+@Entity
 public class Video {
-
-	private long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
 	private String name;
 	private String url;
