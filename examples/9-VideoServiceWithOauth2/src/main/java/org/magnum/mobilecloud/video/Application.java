@@ -1,15 +1,11 @@
 package org.magnum.mobilecloud.video;
 
 import org.magnum.mobilecloud.video.auth.OAuth2SecurityConfiguration;
-import org.magnum.mobilecloud.video.json.ResourcesMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
-import org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 //Tell Spring to automatically inject any dependencies that are marked in
 //our classes with @Autowired
@@ -26,7 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 // as part of this configuration so that we can have security and oauth
 // setup by Spring
 @Import(OAuth2SecurityConfiguration.class)
-public class Application extends RepositoryRestMvcConfiguration {
+public class Application {
 
 	// The app now requires that you pass the location of the keystore and
 	// the password for your private key that you would like to setup HTTPS
@@ -49,16 +45,4 @@ public class Application extends RepositoryRestMvcConfiguration {
 		SpringApplication.run(Application.class, args);
 	}
 	
-	// We are overriding the bean that RepositoryRestMvcConfiguration 
-	// is using to convert our objects into JSON so that we can control
-	// the format. The Spring dependency injection will inject our instance
-	// of ObjectMapper in all of the spring data rest classes that rely
-	// on the ObjectMapper. This is an example of how Spring dependency
-	// injection allows us to easily configure dependencies in code that
-	// we don't have easy control over otherwise.
-	@Override
-	public ObjectMapper halObjectMapper(){
-		return new ResourcesMapper();
-	}
-
 }
